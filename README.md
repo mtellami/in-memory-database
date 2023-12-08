@@ -53,7 +53,7 @@ $ redis-cli
 ```
 
 ## Data Persistence
-- Enable / Desable data save on dist
+- Set `EnableAof` to `true` to enable disk persistence or `false` to disable it.
 ```go
 Config {
     EnableAof: false
